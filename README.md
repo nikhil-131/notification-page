@@ -1,8 +1,21 @@
-# React + Vite
+# Notification Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project creates a notification page that displays all user notifications with a visual distinction for new notifications and the ability to mark all as read.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Notification List:** Displays all user notifications.
+- **New Notification Highlight:** Newly received notifications are visually highlighted to grab user attention.
+ - This project uses Tailwind CSS for rapid and responsive UI development.
+- **Mark All as Read:** Clicking the "Mark All as Read" button, removes the highlight from the newest notification.
+
+Technologies Used:
+
+- HTML
+- CSS
+- Tailwind CSS
+- JavaScript
+- React.js
+- Vite
+
+I would appreciate feedback on this project, as I have put in a lot of hard work. I would like it if you could look at it and tell me what you think and where I can improve. Thank you!
